@@ -1,0 +1,13 @@
+name = "nitro-study"
+main = "./.output/server/index.mjs"
+compatibility_date = "2023-05-06"
+
+kv_namespaces = [
+  { binding = "NITRO_STUDY_CACHE", id = "78f218ebb4984f78ab2b307386ee8258" }
+]
+
+# [site]
+# bucket = ".output/public"
+
+[build]
+command = "npm run build"

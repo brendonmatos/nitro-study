@@ -1,0 +1,13 @@
+{
+  "name": "example-hello-world",
+  "private": true,
+  "scripts": {
+    "dev": "nitro dev",
+    "build": "nitro build"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230419.0",
+    "nitropack": "latest",
+    "wrangler": "^2.19.0"
+  }
+}
